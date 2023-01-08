@@ -1,13 +1,17 @@
 
 
-const Currency = () => {
+const Currency = (props) => {
+  const {
+    currencyOptions
+  } = props
+
   return (
-    <div>
+    <div className='values'>
         <input type='number' className='amount'></input>
         <select className='currency'>
-            <option value='USD'>USD</option>
-            <option value='USD'>CAD</option>
-            <option value='USD'>EUR</option>
+            {currencyOptions.map(option => (
+              <option key={option} value={option}>{option}</option>
+            ))}
         </select>
     </div>
   )
