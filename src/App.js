@@ -1,12 +1,14 @@
+import './App.css';
 import Currency from "./components/Currency";
 
 function App() {
   return (
     <div className="container">
-      <h1>Convert</h1>
-      <Currency />
-      <div>=</div>
-      <Currency />
+        <span className='content'>
+          <Currency />
+          <div className='equal'>is equal to</div>
+          <Currency />
+        </span>
     </div>
   );
 }
