@@ -1,9 +1,12 @@
-
+import Currency from "./components/Currency";
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="container">
+      <h1>Convert</h1>
+      <Currency />
+      <div>=</div>
+      <Currency />
     </div>
   );
 }
