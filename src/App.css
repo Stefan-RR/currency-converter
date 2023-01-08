@@ -6,14 +6,14 @@ html, body, #root {
   height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: rgb(240, 225, 211);
+  background-color: #1d2330;
 }
 .content {
   text-align: center;
   align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
@@ -21,23 +21,40 @@ html, body, #root {
   padding: 120px;
   width: 900px;
   border-width: 1px;
-  border-color: rgb(255, 255, 255);
+  border-color: #293143;
   border-style: solid;
   border-radius: 15px;
-  background-color: white;
+  background-color: #293143;
+  color: white;
+}
+.values {
+  background-color: #1d2330;
+  height: 60px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
 }
 .amount {
   font-size: 30px;
-  width: 200px;
-  margin-right: 10px;
-  border-radius: 5px;
+  width: 150px;
+  min-height: 41.3px;
+  padding-left: 20px;
+  border-style: none;
+  background-color: #1d2330;
+  color: white;
 }
 .currency {
+  min-height: 43.3px;
   font-size: 30px;
-  padding: 2.5px;
-  border-radius: 5px;
-  background-color: white;
+  margin-left: 4px;
+  padding-right: 20px;
+  background-color: #1d2330;
+  border-style: none;
+  color: white;
 }
 .equal {
   font-size: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
