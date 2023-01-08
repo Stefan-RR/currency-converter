@@ -6,6 +6,7 @@ html, body, #root {
   height: 100%;
   display: flex;
   flex-direction: column;
+  background-color: rgb(240, 225, 211);
 }
 .content {
   text-align: center;
@@ -20,16 +21,22 @@ html, body, #root {
   padding: 120px;
   width: 900px;
   border-width: 1px;
-  border-color: black;
+  border-color: rgb(255, 255, 255);
   border-style: solid;
-  border-radius: 20px;
+  border-radius: 15px;
+  background-color: white;
 }
 .amount {
   font-size: 30px;
   width: 200px;
+  margin-right: 10px;
+  border-radius: 5px;
 }
 .currency {
   font-size: 30px;
+  padding: 2.5px;
+  border-radius: 5px;
+  background-color: white;
 }
 .equal {
   font-size: 30px;
